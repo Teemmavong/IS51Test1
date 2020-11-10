@@ -1,0 +1,9 @@
+"""
+You are given two salary options for 10 days of work. The first option is 100$ per day.
+The second option is  1$ the first day doubling each day for 10 days.
+There will be 2 functions. 
+1st function will be 100 ($) x 10 (days)
+2nd function will be loop 10x with each time doubling the amount 
+and add that amount to the total.
+check if Option1 and Option2 are = or output the greater Option
+"""
