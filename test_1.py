@@ -30,3 +30,34 @@ reutrn Option2 is better
 else 
 return they are equal
 """
+def option1():
+    return 100 * 10
+
+
+def option2():
+    amount = 1
+    list1 = []
+    for i in range(0,10):
+        list1.append(amount)
+        amount *= 2
+    total = sum(list1)
+    return total
+
+def main():
+    pass
+
+var1 = option1()
+var2 = option2()
+answer = ""
+print("Option 1 is: ", var1)
+print("Option 2 is: ", var2)
+
+if var1 == var2:
+    answer = "They are equal"
+if var1 > var2:
+    answer = "Option 1 is better."
+else: 
+    answer = "Option 2 is better."
+print(answer)
+
+
