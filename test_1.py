@@ -53,7 +53,7 @@ print("Option 1 is: ", var1)
 print("Option 2 is: ", var2)
 
 if var1 == var2:
-    answer = "They are equal"
+    answer = "Option 1 and Option 2 pays the same."
 if var1 > var2:
     answer = "Option 1 is better."
 else: 
